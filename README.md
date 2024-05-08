@@ -1,6 +1,7 @@
 # Nama Aplikasi
 
 > HiDoc
+> Konsultasi dengan AI (Artificial Intelligence) untuk kesehatan adalah layanan inovatif yang memungkinkan Anda untuk mendapatkan informasi dan saran kesehatan yang dipersonalisasi dari AI canggih. AI ini dilatih dengan data medis yang sangat besar dan dapat menjawab berbagai macam pertanyaan Anda terkait kesehatan
 
 ## featur
 
