@@ -33,7 +33,7 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link" href="#team">Sick</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
@@ -113,45 +113,29 @@
                 <div class="section-title">
                     <h1 class="display-4 fw-semibold">TOP 3 PENYAKIT UMUM</h1>
                     <div class="line"></div>
-                    <p>Pelajari berbagai penyebab umum sakit dan cara-cara efektif untuk mengatasinya.</p>
+                    <p>Pelajari berbagai penyebab umum sakit dan cara-cara efektif untuk mengatasinya.</p>           
                 </div>
             </div>
         </div>
         <div class="row">
             <!-- Article cards here -->
+            <?php
+                    foreach ($data as $nilai) { 
+                        
+                        ?>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/images/PILEK.jfif" class="card-img-top" alt="Common Cold">
+                    <img src="<?php echo($nilai->image) ?>" class="card-img-top" alt="Common Cold">
                     <div class="card-body">
-                        <h5 class="card-title">Penyebab dan Cara Mengatasi Pilek</h5>
-                        <p class="card-text">Pilek disebabkan oleh virus dan dapat diatasi dengan istirahat cukup, konsumsi cairan, dan obat pereda gejala.</p>
+                        <h5 class="card-title"><?php echo($nilai->title) ?></h5>
+                        <p class="card-text"><?php echo($nilai->description) ?></p>
                         <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" data-aos="fade-up" data-aos-delay="300">
-                    <img src="assets/images/STRES.jpg" class="card-img-top" alt="Stress">
-                    <div class="card-body">
-                        <h5 class="card-title">Mengelola Stres untuk Kesehatan Optimal</h5>
-                        <p class="card-text">Stres dapat memicu berbagai penyakit. Atasi dengan teknik relaksasi, olahraga, dan mengatur waktu dengan baik.</p>
-                        <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card" data-aos="fade-up" data-aos-delay="400">
-                    <img src="assets/images/MAG.jpg" class="card-img-top" alt="Indigestion">
-                    <div class="card-body">
-                        <h5 class="card-title">Cara Mengatasi Gangguan Pencernaan</h5>
-                        <p class="card-text">Gangguan pencernaan sering kali disebabkan oleh makanan dan stres. Solusinya termasuk pola makan sehat dan relaksasi.</p>
-                        <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+            <?php
+                    }
+                    ?>
 
 
    <!-- BLOG -->
