@@ -55,7 +55,7 @@
                     <h1 data-aos="fade-left" class="text-uppercase text-white fw-semibold display-1">Solusi Sehat HiDOC</h1>
                     <div data-aos="fade-up" data-aos-delay="50">
                         <a href="https://gemini.google.com/app/42dd03eb73a258bf" class="btn btn-brand me-2">KONSULTASI</a>
-                        <a href="#team" class="btn btn-light ms-2">TEAM</a>
+                        <a href="#team" class="btn btn-light ms-2">SICK</a>
                     </div>
                 </div>
             </div>
